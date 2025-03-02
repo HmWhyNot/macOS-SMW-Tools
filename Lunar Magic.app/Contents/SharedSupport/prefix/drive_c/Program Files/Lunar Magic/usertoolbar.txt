@@ -1,0 +1,39 @@
+LM_DISPLAY_ERRORS 10
+
+
+
+***START***
+LM_SPACER
+***END***
+
+LM_NEWIMAGE "Addons/uberASMEditor/icon.bmp"
+***START***
+"Addons/uberASMEditor/UberASMEditor.exe" "%1" "%2\" "%7"
+1,Edit this level's uberASM
+LM_NOTIFY_ON_NEW_ROM LM_NOTIFY_ON_NEW_LEVEL LM_USEIMAGE_LIST
+***END***
+
+
+LM_NEWIMAGE "Addons/Layer3BackgroundEditor/icon.bmp"
+***START***
+"Addons/Layer3BackgroundEditor/Layer3BackgroundEditor.exe" "%1" "%2\" "%7"
+1,Edit this level's layer 3 background
+LM_NOTIFY_ON_NEW_ROM LM_NOTIFY_ON_NEW_LEVEL LM_USEIMAGE_LIST
+***END***
+
+
+LM_NEWIMAGE "Addons/SuperGFXBypassPlus/icon.bmp"
+***START***
+"Addons/SuperGFXBypassPlus/SuperGFXBypassPlus.exe" "%1" "%2\" "%7"
+1,Edit this level's graphics
+LM_NOTIFY_ON_NEW_ROM LM_NOTIFY_ON_NEW_LEVEL LM_USEIMAGE_LIST
+***END***
+
+***START***
+LM_SPACER
+***START***
+"Addons/AsarAddon/AsarAddon.exe" "%1"
+0,Asar Addon to apply ASM patches
+LM_CLOSE_ON_CLOSE
+'a',VK_CONTROL
+***END***
